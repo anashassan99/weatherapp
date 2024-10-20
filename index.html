@@ -5,8 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div class="container">
+      <header>
+        <h2>Weather</h2>
+        <div class="weather_input">
+          <input
+            type="text"
+            name="country_box"
+            id="country_box"
+            placeholder="Enter city name"
+          />
+          <button id="search_btn" type="button">
+            <i class="bx bx-search"></i>Search
+          </button>
+          <button id="location_btn" type="button">
+            <i class="bx bx-target-lock"></i>Current Location
+          </button>
+        </div>
+      </header>
+      <div class="weather_data">
+        <div class="weather_left">
+          <div class="card">
+            <div class="current_weather">
+              <div class="detalils">
+                <p>now</p>
+                <h2>__&deg;C</h2>
+                <p>____</p>
+              </div>
+              <div class="weather_icon">
+                <img
+                  src="http://openweathermap.org/img/wn/04d@2x.png"
+                  alt="weather_icon"
+                />
+              </div>
+            </div>
+            <hr />
+            <div class="card_footer">
+              <p><i class="fa-regular fa-calendar"></i>____</p>
+              <p><i class="fa-solid fa-location-dot"></i>____</p>
+            </div>
+          </div>
+          <div class="card">
+            <h2>5 days Forcast</h2>
+            <div class="day_forcast">
+              <div class="forcast_item">
+                <div class="icon_wrapper">
+                  <img
+                    src="http://openweathermap.org/img/wn/02d.png"
+                    alt="weather_icon"
+                  />
+                  <span>____&deg;C</span>
+                </div>
+                <p>____</p>
+                <p>____</p>
+              </div>
+            </div>
+            <div class="day_forcast">
+              <div class="forcast_item">
+                <div class="icon_wrapper">
+                  <img
+                    src="http://openweathermap.org/img/wn/02d.png"
+                    alt="weather_icon"
+                  />
+                  <span>____&deg;C</span>
+                </div>
+                <p>____</p>
+                <p>____</p>
+              </div>
+            </div>
+            <div class="day_forcast">
+              <div class="forcast_item">
+                <div class="icon_wrapper">
+                  <img
+                    src="http://openweathermap.org/img/wn/02d.png"
+                    alt="weather_icon"
+                  />
+                  <span>____&deg;C</span>
+                </div>
+                <p>____</p>
+                <p>____</p>
+              </div>
+            </div>
+            <div class="day_forcast">
+              <div class="forcast_item">
+                <div class="icon_wrapper">
+                  <img
+                    src="http://openweathermap.org/img/wn/02d.png"
+                    alt="weather_icon"
+                  />
+                  <span>____&deg;C</span>
+                </div>
+                <p>____</p>
+                <p>____</p>
+              </div>
+            </div>
+            <div class="day_forcast">
+              <div class="forcast_item">
+                <div class="icon_wrapper">
+                  <img
+                    src="http://openweathermap.org/img/wn/02d.png"
+                    alt="weather_icon"
+                  />
+                  <span>____&deg;C</span>
+                </div>
+                <p>____</p>
+                <p>____</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>
