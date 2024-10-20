@@ -34,7 +34,7 @@ header {
   margin-bottom: 10px;
   padding: 15px 0;
 
-  #country_box {
+  #city_box {
     border: none;
     padding: 12px;
     font-size: 16px;
@@ -269,7 +269,7 @@ header {
     h2 {
       margin-bottom: 8px;
     }
-    #country_box,
+    #city_box,
     #search_btn,
     #location_btn {
       width: 100%;
